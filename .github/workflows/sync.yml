@@ -24,7 +24,7 @@ jobs:
           
       - name: Sync with upstream repository
         run: |
-          git remote add upstream https://github.com/gitbruc/package_new_nat6
+          git remote add upstream https://github.com/sbwml/package_new_nat6
           git fetch upstream
           git merge upstream/openwrt-25.12
           git push
